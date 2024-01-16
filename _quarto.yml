@@ -2,16 +2,38 @@ project:
   type: book
 
 book:
-  title: "OS-PHKA"
-  author: "Norah Jones"
-  date: "27.9.2023"
+  title: "Open Science Essentials"
+  subtitle: "Ein Überblick zu offener Forschung mit ausgewählten Hands-on Vertiefungen"
+  author: "Jürgen Schneider <br /><ju.schneider@dipf.de>"
+  date: "17 Jan 2024"
+  date-format: "DD MMMM YYYY"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - part: open_access_0.qmd
+      chapters: 
+        - open_access_1.qmd
+        - open_access_2.qmd
+        - open_access_3.qmd
+    - part: open_data_0.qmd
+      chapters: 
+        - open_data_1.qmd
+        - open_data_2.qmd
+        - open_data_3.qmd
+  appendices: 
     - references.qmd
+    - credit.qmd
+  page-navigation: true
 
-bibliography: references.bib
+number-depth: 1
+
+bibliography: www/references.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+css: www/style.css
+
+quarto:
+  packages:
+    - emoji
+    - fontawesome
 
 format:
   html:
@@ -19,5 +41,8 @@ format:
   pdf:
     documentclass: scrreprt
 
-editor: visual
+editor: source
 
+comments:
+  hypothesis: 
+    theme: clean

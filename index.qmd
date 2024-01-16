@@ -1,9 +1,34 @@
-# Preface {.unnumbered}
+\
+\
 
-This is a Quarto book.
+# Overview {.unnumbered}
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+This is the overview to the workshop. Here you'll find the...
 
-```{r}
-1 + 1
-```
+:::: {.columns}
+::: {.column width="24%" .rounded-padding .rainbow1-bg}
+![](www/rainbow1.jpg){width=100%}  
+[Introductory slides]()
+:::
+::: {.column width="1%"}
+:::
+
+::: {.column width="24%".rounded-padding .rainbow2-bg}
+![](www/rainbow2.jpg){width=100%}  
+[Tasks on open access](open_access.qmd)
+:::
+::: {.column width="1%"}
+:::
+
+::: {.column width="24%" .rounded-padding .rainbow3-bg}
+![](www/rainbow3.jpg){width=100%}  
+[Tasks on open data](open_data.qmd)
+:::
+::: {.column width="1%"}
+:::
+
+::: {.column width="24%" .rounded-padding .rainbow4-bg}
+![](www/rainbow4.jpg){width=100%}  
+[Closing slides]()
+:::
+::::
