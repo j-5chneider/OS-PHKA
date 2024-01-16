@@ -1,0 +1,31 @@
+---
+engine: knitr
+---
+
+# Options
+
+\
+
+There are currently **few established standards** and workflows for this challenge that are capable of achieving consensus in a broader community. [@Humphreys.etal.2021]\
+\
+
+
+### Annotation for Transparent Inquiry (ATI)
+
+... is a tool that has already been piloted and explored, for which initial experience reports and publications using the tool are available.\
+
+`r emoji::emoji_name["arrow_right"]` [qdr.syr.edu/ati](https://qdr.syr.edu/ati)\
+\
+
+ATI is an open **web annotation tool** that allows annotations to be generated and shared over the web [@Elman.Kapiszewski.2018]. Similar to the commenting function in word processing programs, authors can mark parts of the text in the manuscript and link them to excerpts from the data, descriptions of the analysis procedure, interpretations and conclusions.\
+
+::: {.callout-note collapse="true" title="Example of a manuscript annotated with ATI"}
+![](www/mayka.jpg){width=100%}  
+  
+*Figure: Example of a manuscript annotated with ATI (<span style="citation">[Mayka, 2021](https://qdr.syr.edu/atipaper/power-of-human-rights-frames#annotations:group:2Nopp9mx)</span>)*
+:::
+
+
+The tool uses the open source annotation software Hypothes.is ([www.hypothes.is](https://web.hypothes.is/)) and therefore works online web text as well as PDF documents (such as on repositories, e.g., [SocArXiv](https://osf.io/preprints/socarxiv)). Consequently, **every** digitally published **article** and every excerpt from it **can be annotated**. \
+
+While the annotations are created by the authors, they are hosted and curated by the Qualitative Data Repository ([www.qdr.org](https://qdr.syr.edu/)) of Syracuse University. This makes the annotations machine- and human-readable in the **long term**.

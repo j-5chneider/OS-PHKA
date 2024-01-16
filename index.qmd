@@ -6,29 +6,53 @@
 This is the overview to the workshop. Here you'll find the...
 
 :::: {.columns}
-::: {.column width="24%" .rounded-padding .rainbow1-bg}
+::: {.column width="19%" .rounded-padding .rainbow1-bg .centered}
 ![](www/rainbow1.jpg){width=100%}  
-[Introductory slides]()
+<span style="padding: 5px;">[1. Introductory slides](https://raw.githack.com/j-5chneider/OS-PHKA/master/slides/OS_essentials_slides1.html)</span>
 :::
 ::: {.column width="1%"}
 :::
 
-::: {.column width="24%".rounded-padding .rainbow2-bg}
+::: {.column width="19%".rounded-padding .rainbow2-bg .centered}
 ![](www/rainbow2.jpg){width=100%}  
-[Tasks on open access](open_access.qmd)
+<span style="padding: 5px;">[2. Tasks on<br />open access](open_access_0.qmd)</span>
 :::
 ::: {.column width="1%"}
 :::
 
-::: {.column width="24%" .rounded-padding .rainbow3-bg}
+::: {.column width="19%" .rounded-padding .rainbow3-bg .centered}
 ![](www/rainbow3.jpg){width=100%}  
-[Tasks on open data](open_data.qmd)
+<span style="padding: 5px;">[3. Tasks on<br />open data](open_data_0.qmd)</span>
 :::
 ::: {.column width="1%"}
 :::
 
-::: {.column width="24%" .rounded-padding .rainbow4-bg}
+::: {.column width="19%" .rounded-padding .rainbow4-bg .centered}
 ![](www/rainbow4.jpg){width=100%}  
-[Closing slides]()
+<span style="padding: 5px;">[4. Tasks on transparent inquiry](inquiry_0.qmd)</span>
+:::
+
+::: {.column width="1%"}
+:::
+
+::: {.column width="19%" .rounded-padding .rainbow5-bg .centered}
+![](www/rainbow5.jpg){width=100%}  
+<span style="padding: 5px;">[5. Closing<br />slides](https://raw.githack.com/j-5chneider/OS-PHKA/master/slides/OS_essentials_slides2.html)</span>
 :::
 ::::
+\
+\
+
+### Rough timeline
+
+* Introduction (50min)
+  - Break (15min)
+* Hands-on (50min)
+  - Break (15min)
+* Hands-on discussion (20min)
+* Reflection (30min)
+
+\
+\
+
+*Github Repo of this workshop, see [github.com/j-5chneider/OS-PHKA](https://github.com/j-5chneider/OS-PHKA)*

@@ -338,3 +338,24 @@ slides > slide:not(.nobackground):before {
   padding-left: 1.5em;
   text-indent:-1.5em;
 }
+
+
+
+a:link {
+    color: #5d656f;
+}
+
+a:visited {
+    color: #5d656f;
+}
+
+a:hover {
+    color: #939fae;
+}
+
+a:active {
+    color: #5d656f;
+}
+
+
+

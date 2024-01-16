@@ -1,0 +1,17 @@
+# Transparent inquiry
+
+\
+
+
+::: {.column width="52%"}
+In this chapter you will learn about
+\
+
+1. [What is transparent inquiry?](inquiry_1.qmd)
+2. [What options do you have?](inquiry_2.qmd)
+3. [What are easy steps to get started?](inquiry_3.qmd)
+:::
+
+::: {.column width="45%"}
+
+:::

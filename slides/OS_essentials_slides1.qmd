@@ -47,10 +47,10 @@ library(fontawesome)
 
 For that...
 
-1. Fork [the github repo](https://github.com/j-5chneider/PTOS-open-data) this Quarto book is based on
+1. Fork [the github repo](https://github.com/j-5chneider/OS-PHKA) this Quarto book is based on
 2. Go to settings of your new repo and go to the "pages" section. Then set the "Branch" option to `gh-pages` (leave the dropdown to the right of this at `/root`)
 3. Wait a minute to let the website get deployed. You can check on the status in the "Actions" tab of your repo.
-4. Back on the main repo site, click on "About" (top right). In the URL of the website, change "j-5chneider" to your username "[your github username].github.io/PTOS-open-data/" (you might need to activate GitHub Pages for that, by [creating a GitHub Pages repo](https://docs.github.com/en/pages/quickstart))
+4. Back on the main repo site, click on "About" (top right). In the URL of the website, change "j-5chneider" to your username "[your github username].github.io/OS-PHKA/" (you might need to activate GitHub Pages for that, by [creating a GitHub Pages repo](https://docs.github.com/en/pages/quickstart))
 5. open your new webpage by clicking on that link in the "About" section
 
 \
@@ -59,7 +59,7 @@ For that...
 
 \
 
-So you get noticed if I update something on [the github repo](https://github.com/j-5chneider/PTOS-open-data).  
+So you get noticed if I update something on [the github repo](https://github.com/j-5chneider/OS-PHKA).  
     
 And I get that sweet sweet dopamine.  
 ![](../www/seal_dopamine.jpg){width=25%}

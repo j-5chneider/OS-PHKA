@@ -1,0 +1,13 @@
+# What it is
+
+In qualitative research, one of the key challenges is to make the epistemological process, i.e. the interpretations and conclusions drawn from the material, **intersubjectively comprehensible**. In conventional publication formats, the sources or data cited and the **analysis process on which the authors base their conclusions** are usually only partially transparent. [@Kapiszewski.Karcher.2021] \
+
+
+::: {.column width="40%"}
+![](www/clean_paper.jpg)
+:::
+::: {.column width="58%"}
+Transparent inquiry is the attempt to highlight parts of the text in the manuscript and link these to sections of the data, descriptions of the approach used in the analysis, interpretations and conclusions.\
+
+The **basis of the argumentation**, i.e. the way in which the authors' conclusions lead to the scientific claims in the manuscript, is thus directly linked to the scientific claims themselves, making the reasoning tangible to the reader.
+:::

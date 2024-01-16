@@ -19,6 +19,11 @@ book:
         - open_data_1.qmd
         - open_data_2.qmd
         - open_data_3.qmd
+    - part: inquiry_0.qmd
+      chapters: 
+        - inquiry_1.qmd
+        - inquiry_2.qmd
+        - inquiry_3.qmd
   appendices: 
     - references.qmd
     - credit.qmd
