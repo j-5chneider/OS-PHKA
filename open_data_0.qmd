@@ -1,0 +1,17 @@
+# Open Data
+
+\
+
+
+::: {.column width="52%"}
+In this chapter you will learn about
+\
+
+1. [What is open data?](open_data_1.qmd)
+2. [What options do you have?](open_data_2.qmd)
+3. [What are easy steps to get started?](open_data_3.qmd)
+:::
+
+::: {.column width="45%"}
+![](www/data-publication.jpg){width=450px}
+:::

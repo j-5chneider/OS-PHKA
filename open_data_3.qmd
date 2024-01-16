@@ -1,0 +1,40 @@
+---
+engine: knitr
+---
+
+# Easy first steps
+\
+
+### Choose one of these topics:  
+(And if you are done maybe do the other. Or do as you like - I don't make the rules.)
+
+::: {.callout-tip icon=false}
+### `r fontawesome::fa("magnifying-glass")` Check the informed consent
+
+If your data includes personal information, the [European GDPR](https://gdpr-info.eu/) **requires a declaration of consent** from the respondent before it is shared. 
+
+* Check the consent form of your study. Does it cover data sharing (in the *purpose of the study* section)?
+* A typical option is to obtain *"broad consent"*. This includes not only the processing of data for the purposes of your study, but also for other studies.
+  - Check out the [template for informed consent](https://doi.org/10.25656/01:22301) (VerbundFDB, 2018), particularly under "weitere Nutzung" on page 4 and compare it to your consent form.
+  - In which case do you *not* need the participants' consent to share the data?
+  - (Additional: Does your consent form check all the boxes of the [checklist of legally compliant consent forms](https://doi.org/10.25656/01:22297)? (VerbundFDB, 2019)
+:::
+
+
+\
+\
+
+::: {.callout-tip icon=false}
+### `r fontawesome::fa("magnifying-glass")` Let's explore repositories for data sharing!
+
+**How suited** are these repositories for sharing data **publicly** (for transparency) or for archiving data **privately** (because you can't share)?
+
+* Each of you go to one repository: [Zenodo](https://zenodo.org/), [psycharchives.org](https://www.psycharchives.org/), [osf.io](https://osf.io/)
+  - Upload a random CSV file.
+  - Is there an option to make your repository private?
+  - Is there a possibility to set an embargo period, in case you want to wait until your paper got published?
+  - How can you link your publication to the data and your data to the publication?
+  - Can you associate a license with your files, so users know under which conditions they can use it?
+  - Let's assume you have a codebook for your data set. How can you associate it with the data?
+* Report back to each other what you found.
+:::

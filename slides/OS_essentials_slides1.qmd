@@ -1,0 +1,383 @@
+---
+title: "Open Science Essentials (1)"
+subtitle: "Ein Überblick zu offener Forschung mit ausgewählten Hands-on Vertiefungen"
+title-slide-attributes:
+  data-background-image: ../www/title-bg.jpg
+  data-background-size: cover
+  #data-background-opacity: "0.3"
+author: "<b>Jürgen Schneider</b>"
+date: "17. Jan 2023" # today
+date-format: "DD MMMM YYYY"
+format: 
+  revealjs:
+      theme: white # sky default
+      logo: ../www/dipf-logo.png
+      footer: "Materials: [t1p.de/m9vsl](https://t1p.de/m9vsl)"
+      smaller: true
+      scrollable: true
+      transition: fade
+      width: 1500
+      height: 850
+      hide-inactive-cursor: false
+      embed-resources: true
+editor: source
+editor_options: 
+  chunk_output_type: console
+bibliography: ../www/references.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+css: ../www/style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message=FALSE, 
+                      warning=FALSE)
+### DOWNLOAD NEWEST SOURCES
+download.file("https://drive.google.com/uc?export=download&id=1ASV99YHMHSNChSNzqbZwvz2SiqYvmqO_", # befindet sich im DIPF Ordner
+"www/references.bib", overwrite = T)
+
+
+library(fontawesome)
+```
+
+## If you like the workshop...
+
+::: {.panel-tabset}
+#### and want to keep it forever, make it yours
+
+For that...
+
+1. Fork [the github repo](https://github.com/j-5chneider/PTOS-open-data) this Quarto book is based on
+2. Go to settings of your new repo and go to the "pages" section. Then set the "Branch" option to `gh-pages` (leave the dropdown to the right of this at `/root`)
+3. Wait a minute to let the website get deployed. You can check on the status in the "Actions" tab of your repo.
+4. Back on the main repo site, click on "About" (top right). In the URL of the website, change "j-5chneider" to your username "[your github username].github.io/PTOS-open-data/" (you might need to activate GitHub Pages for that, by [creating a GitHub Pages repo](https://docs.github.com/en/pages/quickstart))
+5. open your new webpage by clicking on that link in the "About" section
+
+\
+
+#### give it a star in GitHub
+
+\
+
+So you get noticed if I update something on [the github repo](https://github.com/j-5chneider/PTOS-open-data).  
+    
+And I get that sweet sweet dopamine.  
+![](../www/seal_dopamine.jpg){width=25%}
+:::
+
+
+## Transparency
+
+:::: {.columns}
+::: {.column width="15%"}
+![](../www/dipf-logo.png){width=100%}
+:::
+
+::: {.column width="75%"}
+**DIPF | Leibniz Institute for Research and Information in Education**  
+Project in the *Cooperation Center ShaReD - Sharing and Reusing Data*  
+  
+See [personal webpage](https://www.dipf.de/en/institute/staff/schneider-juergen?set_language=en)
+:::
+::::
+
+:::: {.columns}
+::: {.column width="15%"}
+![](../www/bildung-fdz-logo.png){width=100%}
+:::
+
+::: {.column width="75%"}
+**Cooperation**  
+Working closely together, but not *at* the [research data center at DIPF](https://www.fdz-bildung.de/home?la=en)
+:::
+::::
+
+. . .
+
+:::: {.columns}
+::: {.column width="15%"}
+`r fa("table", width = "80px", height = "80px")` `r fa("chart-column", width = "80px", height = "80px")`
+:::
+
+::: {.column width="75%"}
+**Research paradigm**  
+Very much focused on quantitative-empirical research
+:::
+::::
+
+\
+
+:::: {.columns}
+::: {.column width="15%"}
+![](../www/stutter.png){width=100%}
+:::
+
+::: {.column width="75%"}
+\
+
+**Normalizing disbility (I guess)**  
+I didn't fall asleep, I am one the 1% who stutter (sometimes) ¯\_(ツ)_/¯
+:::
+::::
+
+
+## Introduction and overview
+
+:::: {.columns}
+::: {.column width="25%" .highlight-blue .centered}
+`r fa("triangle-exclamation", width = "250px", height = "250px", fill = "#b6d2ea")`
+
+### current {.white-text}
+### challenges {.white-text}
+### &nbsp;
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="25%" .highlight-orange .centered}
+`r fa("robot", width = "250px", height = "250px", fill = "#fef0df")`  
+
+### new {.white-text}
+### technological {.white-text}
+### advancements {.white-text}
+:::
+
+::::
+ 
+
+## Example of a challenge
+
+
+:::: {.columns}
+::: {.column width="42%" .grey-border}
+![](../www/paper1.jpg)  
+<https://doi.org/10.1016/j.compedu.2023.104986>
+:::
+
+::: {.column width="42%" .grey-border}
+![](../www/paper2.jpg)  
+<https://doi.org/10.1177/09567976231198184>
+:::
+
+::: {.column width="42%" .grey-border}
+![](../www/paper3.jpg)
+<https://doi.org/10.1007/s10648-023-09829-y>
+:::
+
+::: {.column width="42%" .grey-border}
+![](../www/paper4.jpg)
+<https://doi.org/10.1002/sce.21825>
+:::
+::::
+
+## Example of a challenge
+
+![](../www/oa-map.jpg){width=82%}[@Boudry.etal.2019]
+
+
+## Example of a technological advancement
+\
+
+**Imagine: You analyze your data and...**
+
+. . .
+
+:::: {.columns}
+::: {.column width="35%"}
+![](../www/give.jpg){width=100%}
+:::
+
+::: {.column width="65%"}
+
+* someone wants to use the results for a meta-analysis
+* a reviewer wants to check your analyses
+* a team member wants to expand on your analyses
+* ...
+
+\
+
+*In any case: You'd need to share your analyses (and data).*   
+*How would you do it?*
+
+:::
+::::
+
+. . .
+
+:::: {.columns}
+::: {.column width="35%"}
+:::
+::: {.column width="60%" .highlight-orange-bright}
+One option: Provide a browser-based instance of your R-project.  
+[View example](https://github.com/j-5chneider/subcommunitiesOS).
+:::
+::::
+
+
+## Why is Open Science such a thing right now?
+
+\
+\
+
+:::: {.columns}
+::: {.column width="25%" .highlight-blue .centered}
+`r fa("triangle-exclamation", width = "250px", height = "250px", fill = "#b6d2ea")`
+
+### current {.white-text}
+### challenges {.white-text}
+### &nbsp;
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="25%" .highlight-orange .centered}
+`r fa("robot", width = "250px", height = "250px", fill = "#fef0df")`  
+
+### new {.white-text}
+### technological {.white-text}
+### advancements {.white-text}
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="25%" .highlight-grey .centered}
+`r fa("thumbs-up", width = "250px", height = "250px", fill = "#f9f9f9")`  
+
+### good {.white-text}
+### scientific {.white-text}
+### practice {.white-text}
+:::
+::::
+
+## What is Open Science?
+
+* an umbrella term
+
+::: {.callout-tip title="Open Definition"}
+"Open means anyone can freely access, use, modify, and share for any purpose (subject, at most, to requirements that preserve provenance and openness)."  
+[@OpenKnowledgeFoundation.2023]
+::::
+
+* term grew and encompasses all disciplines (not just sciences) [@UNESCO.2022]
+* probably more accurate term: open scholarship
+
+## Open Science as a broad concept: 5 lines of reasoning
+
+<iframe src="https://prezi.com/p/embed/a3Jfa8g6X6bWxbaWXRoS/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" height="77%" width="100%"></iframe>  
+
+::: {.smaller-font}
+<https://prezi.com/view/a3Jfa8g6X6bWxbaWXRoS/>
+:::
+
+
+::: {.notes}
+* engeneering & humanities
+:::
+
+
+
+## Pragmatic School: Quality & development of research
+### Challenges & technological advancements
+
+::: {.callout-note icon=false collapse="true" title="Replicability"}
+:::
+
+\
+
+::: {.callout-tip icon=false collapse="true" title="Reuse"}
+:::
+
+\
+
+::: {.callout-warning icon=false collapse="true" title="Transparency / intersubjective comprehensibility"}
+:::
+
+
+## Pragmatic School: Quality & development of research
+### Challenges & technological advancements
+
+::: {.callout-note icon=false collapse="true" title="Replicability"}
+
+* same methods, new data = similar results [@Barba.2018]
+* "replication crisis": disappointing results with several large-scale replications [@OpenScienceCollaboration.2015; @Errington.etal.2021a; @Camerer.etal.2018]
+* Higher replication rates possible! [@Protzko.etal.2023] if, 
+  - Open data
+  - Open (reproducible) code
+  - Open materials
+  - Preregistration
+* Many of these are not the case in typical research [@Errington.etal.2021; @Artner.etal.2021]
+:::
+
+\
+
+::: {.callout-tip icon=false collapse="true" title="Reuse"}
+:::
+
+\
+
+::: {.callout-warning icon=false collapse="true" title="Transparency / intersubjective comprehensibility"}
+:::
+
+
+
+## Pragmatic School: Quality & development of research
+### Challenges & technological advancements
+
+::: {.callout-note icon=false collapse="true" title="Replicability"}
+:::
+
+\
+
+::: {.callout-tip icon=false collapse="true" title="Reuse"}
+Possibilities
+
+* Secondary analyses: fully exhaust analysis potential<br />`r fa("arrow-right-long", width = "15px", height = "15px")` saves resources
+* Meta-analyses<br />`r fa("arrow-right-long", width = "15px", height = "15px")` makes estimations easier
+* Teaching<br />`r fa("arrow-right-long", width = "15px", height = "15px")` enables practice-oriented education
+:::
+
+\
+
+::: {.callout-warning icon=false collapse="true" title="Transparency / intersubjective comprehensibility"}
+:::
+
+
+
+## Pragmatic School: Quality & development of research
+### Challenges & technological advancements
+
+::: {.callout-note icon=false collapse="true" title="Replicability"}
+:::
+
+\
+
+::: {.callout-tip icon=false collapse="true" title="Reuse"}
+:::
+
+\
+
+::: {.callout-warning icon=false collapse="true" title="Transparency / intersubjective comprehensibility"}
+
+Transparency: Decisions in the research process are fully disclosed [@Elliott.Resnik.2019]
+
+* Enables independent researchers to evaluate scientific claims [@Errington.etal.2021]
+* Protects us from "questionable research practices" [@Fiedler.Schwarz.2016]
+* can increase trust in research/researcher [@Schneider.etal.2022c; @Song.etal.2022]
+
+:::
+
+## References
+
+<div id="refs"></div>
+
+
+## Credit
+
+Title: <a href="https://unsplash.com/de/@adrian_infernus?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Adrian Infernus</a> on <a href="https://unsplash.com/de/fotos/ein-rosa-blauer-himmel-mit-ein-paar-wolken-GLf7bAwCdYg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>  
+  
+<a href="https://stutteringprideflag.org/" target="_blank">Stuttering Pride Flag </a>by <a href="http://conorforan.com" target="_blank">Conor Foran </a> licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank">CC BY-NC-SA 4.0</a></div>  
+  
+Icons: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) [Fontwaesome](https://fontawesome.com) 

@@ -1,0 +1,15 @@
+# What it is
+
+Open access refers to **free access** to digital scientific publications via the internet that is not hindered by payment barriers or registration hurdles.\
+
+
+::: {.column width="40%"}
+![](www/publisher_logic.jpg){width=100%}
+:::
+::: {.column width="58%"}
+The rights of use for open access publications are regulated transparently via so-called free licenses (e.g. Creative Commons licenses).\
+
+The authors' copyrights, such as the protection of intellectual property or the right to quote, are also protected in open access publications in accordance with the Copyright Act.\
+
+In some (mostly closed-access) journals, the copyright is transferred to the journals and **the authors retain very few rights**. For example, if they want to use a graphic from the paper in a presentation, they would (theoretically) first have to request the right of use from the journal.
+:::

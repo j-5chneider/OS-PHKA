@@ -1,0 +1,17 @@
+# Open Access
+
+\
+
+
+::: {.column width="52%"}
+In this chapter you will learn about
+\
+
+1. [What is open access to scholarly publications?](open_access_1.qmd)
+2. [What options do you have?](open_access_2.qmd)
+3. [What are easy steps to get started?](open_access_3.qmd)
+:::
+
+::: {.column width="45%"}
+![](www/god_apc.jpg){width=100%}
+:::

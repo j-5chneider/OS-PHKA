@@ -1,0 +1,22 @@
+# What it is
+\
+
+Research data is open, if
+
+* **anyone**
+* can **readily access** the data
+* at no more than a **reasonable reproduction cost** (i.e., internet connection)
+
+[@OpenKnowledgeFoundation.2023a]
+
+\
+
+::: {.callout-note title="Openness is not a dogma and not a dichotomy"}
+There may be perfectly good reasons not to share data or to share them only with a very specific group. Such as the protection of vulnerable or marginalized individuals or due to ministry regulations.\
+
+This is why the general notion when sharing data is:  
+*"As open as possible as closed as necessary"*  
+[@EuropeanCommission.2023a, p. 36]
+:::
+
+

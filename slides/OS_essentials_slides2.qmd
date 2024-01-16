@@ -1,0 +1,210 @@
+---
+title: "Open Science Essentials (2)"
+subtitle: "Ein Überblick zu offener Forschung mit ausgewählten Hands-on Vertiefungen"
+title-slide-attributes:
+  data-background-image: ../www/title-bg.jpg
+  data-background-size: cover
+  #data-background-opacity: "0.3"
+author: "<b>Jürgen Schneider</b>"
+date: "17. Jan 2023" # today
+date-format: "DD MMMM YYYY"
+format: 
+  revealjs:
+      theme: white # sky default
+      logo: ../www/dipf-logo.png
+      footer: "Materials: [t1p.de/m9vsl](https://t1p.de/m9vsl)"
+      smaller: true
+      scrollable: true
+      transition: fade
+      width: 1500
+      height: 850
+      hide-inactive-cursor: false
+      embed-resources: true
+editor: source
+editor_options: 
+  chunk_output_type: console
+bibliography: ../www/references.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+css: ../www/style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message=FALSE, 
+                      warning=FALSE)
+### DOWNLOAD NEWEST SOURCES
+# download.file("https://drive.google.com/uc?export=download&id=1ASV99YHMHSNChSNzqbZwvz2SiqYvmqO_", # befindet sich im DIPF Ordner
+              # "www/references.bib", overwrite = T)
+
+
+library(fontawesome)
+```
+
+## Open Science is not...
+\
+
+### a one-size-fits-all thing
+Not all open science practices are relevant to all research projects. [@Engzell.Rohrer.2021; @Schneider.2024]\
+
+
+:::: {.columns}
+::: {.column width="49%"}
+::: {.callout-note icon=false title="What is my primary goal?"}
+
+* **Transparency**, to disclose my decisions in the research process?  
+* **Reuse**, to help other researchers, collaborate and save resources?  
+* **Replicability**, to cumulatively built knowledge?
+:::
+:::
+
+::: {.column width="49%"}
+:::
+::::
+
+
+
+## Open Science is not...
+\
+
+### a one-size-fits-all thing
+Not all open science practices are relevant to all research projects. [@Engzell.Rohrer.2021; @Schneider.2024]\
+
+:::: {.columns}
+::: {.column width="49%"}
+::: {.callout-note icon=false title="What is my primary goal?"}
+
+* **Transparency**, to disclose my decisions in the research process?  
+* **Reuse**, to help other researchers, collaborate and save resources?  
+* **Replicability**, to cumulatively built knowledge?
+:::
+:::
+
+::: {.column width="49%"}
+::: {.callout-tip icon=false title="Which open science aspects are important to reach this goal?"}
+
+E.g., if your approach is not empirical, there is (obviously) no need to share the non-existent data.\
+
+So, which open science practices you can apply depends on your... 
+
+* research paradigm
+* type of data (or data at all)
+* type of design
+* characteristics of participants
+* ...
+:::
+:::
+::::
+
+
+
+
+
+## Open Science is not...
+
+### all your responsibility
+
+:::: {.columns}
+::: {.column width="53%" .bigger-font .centered}
+\
+\
+\
+
+Open Science and its cultural change  
+is a **multi-level task**  
+in the research ecosystem
+
+[@EuropeanCommission.2018]
+:::
+
+::: {.column width="45%"}
+![](../www/model.jpg){width=100%}
+:::
+::::
+
+
+## Open Science is not...
+\
+
+### developing on its own
+
+
+
+`r emoji::emoji_name["arrow_right"]` *See e.g., "transformative agreements" of the [DEAL consortium](https://deal-konsortium.de/vertraege)*
+
+\
+
+::: {.highlight-orange-bright}
+*You have a lot of power, e.g., by *
+
+* asking your project partners if they want to preregister, share data, ...
+* inquiring about an open access / open data / alternative metrics policy at your institute
+* joining a open science initiative / ReproducibiliTea
+* advocating for open science practices in your favorite scientific society / conference
+* ...
+:::
+\
+
+**Be part of making open science the norm** `r emoji::emoji_name["slightly_smiling_face"]`
+
+
+## Open Science is not...
+\
+
+### an all-or-nothing principle
+
+:::: {.columns}
+::: {.column width="35%"}
+![](../www/goodvsevil.jpg){width=100%}  
+<span class="smaller-font">Yes, this is [bing create](http://www.bing.com/images/create). Sorry... I'll show myself out.</span>
+:::
+
+::: {.column width="63%"}
+\
+
+* It's not open scientists vs. closed scientists  
+* You don't have to do everything instantly and at once, this can be daunting
+* Learn, develop yourself, be patient
+* Help each other
+\
+\
+
+If the open science community is anything, it is a **learning community**!
+:::
+::::
+
+
+## Thank you
+
+### for your attention
+
+\
+\
+\
+
+:::: {.columns}
+::: {.column width="20%"}
+![](../www/dipf-logo.png){width=100%}
+:::
+
+::: {.column width="63%" .bigger-font}
+**Jürgen Schneider**  
+<ju.schneider@dipf.de>  
+:::
+::::
+
+
+
+
+
+
+## References
+
+<div id="refs"></div>
+
+
+## Credit
+
+Title: <a href="https://unsplash.com/de/@adrian_infernus?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Adrian Infernus</a> on <a href="https://unsplash.com/de/fotos/ein-rosa-blauer-himmel-mit-ein-paar-wolken-GLf7bAwCdYg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>  
+  
+Icons: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) [Fontwaesome](https://fontawesome.com) 
+  

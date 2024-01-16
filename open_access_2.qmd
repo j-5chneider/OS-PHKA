@@ -1,0 +1,141 @@
+---
+engine: knitr
+---
+
+
+# Options
+
+[@Severin.etal.2018]
+
+:::: {.columns}
+::: {.column width="49%" .diamond-bg .rounded-padding}
+![](www/diamond.jpg)  
+
+### Diamond (= Platinum)
+This model involves journals that are entirely free to readers and authors. The costs are usually covered by institutions, societies, or other funding sources.\
+
+*Example journal: [Meta-Psychology](https://open.lnu.se/index.php/metapsychology/index)*
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="49%" .gold-bg .rounded-padding}
+![](www/gold.jpg)  
+
+### Gold  
+In this model, articles are freely accessible to the public immediately upon publication.\
+
+The costs, so called **APC**s (article processing charges, see below) associated with publishing are typically covered by the author, their institution, or funding agencies.\
+
+APCs have to be paid only after the manuscript is accepted. Any other practice, like paying to initiate the review process is predatory publishing (see below).\
+
+*Example journal: [AERA Open](https://journals.sagepub.com/home/ERO) (moderate APC)*
+:::
+::::
+
+\
+
+
+:::: {.columns}
+::: {.column width="49%" .green-bg .rounded-padding}
+![](www/green.jpg)  
+
+### Green
+Also known as "self-archiving" of **pre-prints**. This approach allows authors to deposit a version of their article in an open **repository**. The archiving has to be done by yourself.\
+
+Some journals impose an **embargo period** on articles published with them (`r emoji::emoji_name["unamused"]` *boo!* ). The pre-print cannot be shared before this period has expired.\
+
+*Trusted repositories: [zenodo](https://zenodo.org/), [SocArXiv](https://osf.io/preprints/socarxiv)*
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="49%" .hybrid-bg .rounded-padding}
+![](www/hybrid.jpg)  
+
+### Hybrid  
+Journals based on this model are closed, but offer the possibility to **"unlock" your individual article**, which then becomes open access. APCs for hybrid journals are usually outrageously expensive (`r emoji::emoji_name["unamused"]` *boo!* ).\
+
+Since all the other articles in the journal may still be behind a paywall, libraries may still have to pay a lot of money, as they usually buy entire issues with several articles. In this way, taxpayers pay twice for the process of opening the access to the paper.\
+
+*Example journal: [Computers and Education](https://www.sciencedirect.com/journal/computers-and-education) (not so moderate APC)*
+:::
+::::
+
+
+
+
+
+\
+\
+
+
+::: {.callout-tip icon=false}
+### `r fontawesome::fa("magnifying-glass")` Task
+
+* Google search for a journal article you recently read and find it on the publisher's webpage
+* Which model of open access does this journal use (gold, diamond, hybrid, closed)?
+* Imagine you would submit a manuscript to this journal: How much would it cost you to make your article open access?
+:::
+
+
+
+
+
+
+\
+\
+\
+
+**more info on...**
+
+::: {.callout-note icon=false collapse="true" title="How is the distribution?"}
+![test](www/oa_development.jpg)  
+*Fig 1. Share of scientific publications by access type in their year of publication (bronze open access = without license)* [@UNESCO.2023]  
+:::
+
+::: {.callout-note icon=false collapse="true" title="APC"}
+**Where do I get the money for the APC?**
+
+* If the project is supported by a research funder, open access publication costs are usually included as part of the grant (or can be applied for).
+* Research institutes typically have an open access publication fund. Check at the library of your institute. However, the eligibility of the journal for the fund is subject to certain conditions, which are defined in the terms of use of the open access fund or the open access policy (if available). For example, publications in hybrid journals are often not getting funded.
+
+
+:::
+
+
+::: {.callout-note icon=false collapse="true" title="Predatory Publishing"}
+**Some publishers**\
+engage in fraudulent business practices. \
+
+A typical way is that such journals promise fast review procedures and publication times. These are indeed fast, but because they lack proper editorial standards and peer review processes. There is no real critical appraisal of the manuscript. Therefore acceptance rates are very high and publication can be very fast. Also, authors often have to pay an APC already *before* the initiation of the review process.\
+
+The website [thinkchecksubmit.org](https://thinkchecksubmit.org/) helps you to sort out the good from the bad.\
+\
+
+**Some researchers and librarians**\
+are also critical of the so-called "mega-journals". [@Oviedo-Garcia.2021]\
+
+These include for example PLOS ONE and the Frontiers series. The business model of these journals is based on the fact that they publish a *very* large number of articles and collect APCs for them. The criticism is that the editors place their priority on a high publication output, with the quality of the review process suffering as a result.\
+
+The rapidly increasing number of special issues in regular journals is also viewed critically for the same reasons.
+:::
+
+
+::: {.callout-note icon=false collapse="true" title="Preprint"}
+A preprint is a **version** of a scientific manuscript **before it is submitted to peer review** and publication in a scientific journal. At this stage, publishers or peer reviewers have not yet invested any resources in the manuscript, which is why the sole intellectual property rights lie with the authors.\
+
+This means: Please *save different versions* of your manuscript! Either by yourself of using version control software (like git). Otherwise, it will be difficult to restore the version as it was before you submitted it.\
+
+Preprints can be uploaded to so called "preprint servers" and repositories free of charge.  
+Typical repositories in education: [zenodo](https://zenodo.org/), [SocArXiv](https://osf.io/preprints/socarxiv)*\
+
+**When to upload**
+
+* Pre-submission (actual pre-print): <br />Some researchers choose to upload a preprint before formally submitting their manuscript to a journal. This allows for early dissemination of findings and the opportunity to receive feedback from the community before the formal peer review process begins.
+* Post-publication: <br />Even after a manuscript is formally published, researchers may choose to upload a preprint to maintain an openly accessible version of their work, ensuring broader dissemination.
+
+*In both cases please check with the journal you are about to submit to, if this is in line with their publishing guidelines!*
+:::

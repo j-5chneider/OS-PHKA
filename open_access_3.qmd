@@ -1,0 +1,41 @@
+---
+engine: knitr
+---
+
+# Easy first steps
+
+::: {.callout-tip icon=false}
+### `r fontawesome::fa("magnifying-glass")` Finding open access journals
+
+A good first glimpse at what are good options for open access journals is [doaj.org](https://doaj.org/). The Directory of Open Access Journals (DOAJ) systematizes information on journals that are open access.
+
+* Go to [doaj.org](https://doaj.org/)
+* Type in a keyword that describes your research (e.g. "digital", "school", ...)
+* Refine your results by applying the filters on the left (e.g. subjects, languages, ...)
+* Can you find interesting journals? Explore the results and their
+  - APC
+  - publisher
+  - expected time from submission to publication
+  - ...
+* Note interesting journals to share with your colleagues
+:::
+
+
+\
+\
+
+::: {.callout-tip icon=false}
+### `r fontawesome::fa("magnifying-glass")` My first preprint
+
+Sharing preprints is incredibly easy. Let's try it!  
+If you don't have a manuscript to share, just use a blank PDF page (e.g. by saving one from MS Word).
+
+* Take your PDF and head to [SocArXiv](https://osf.io/preprints/socarxiv) or [Zenodo](https://zenodo.org/)
+* Upload your PDF
+* Explore and compare the features between SocArXiv and Zenodo:
+  - How can you link the preprint to your article in the journal (if it is already published)?
+  - How can you upload a new version of the preprint?
+  - How can you restrict access to the preprint or apply an embaro period?
+  - What information (= metadata) can you provide about your preprint?
+* If you would like to share a preprint: Which platform would you choose?
+:::

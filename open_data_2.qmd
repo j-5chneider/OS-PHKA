@@ -1,0 +1,169 @@
+---
+engine: knitr
+---
+
+# Options
+
+\
+
+Depending on whether you are sharing data for reasons of **transparency** or to enable **reuse**, a different level of preparation is required and a different archiving facility might be considered.    
+  
+::: {.callout-tip collapse="true" title="Is my data fit for reuse?"}
+Here are a couple of guidelines to decide, if your data is fit for reuse
+
+* Costs:
+  - How much **effort** is required for well-documented data sharing (e.g., does a codebook exist? What steps are necessary for data cleaning/editing?)
+  - Is there **consent for reuse** available or would it have to be obtained retrospectively?
+* Benefits:
+  - How large is the remaining **analysis potential**? (e.g., not fully analyzed, type of data, connected with other data sources)
+  - How high do you rate the **quality** of the data? (e.g., representative, size, special features of sample)
+:::
+
+\
+
+::: columns
+::: {.column .transparency-bg .rounded-padding width="49%"}
+![](www/transparency.jpg)
+
+### Share for transparency
+
+Put you data into a **repository**!  
+Recommended options are:
+
+* [Zenodo](https://zenodo.org/)
+* [psycharchives.org](https://www.psycharchives.org/)
+* [osf.io](https://osf.io/)
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column .reuse-bg .rounded-padding width="49%"}
+![](www/reuse.jpg)
+
+### Share for reuse
+
+Put you data into a **research data center**!  
+Recommended options are: 
+
+  * [Verbund FDB](https://www.forschungsdaten-bildung.de/) (Education)
+  * [RDC at ZPID](https://rdc-psychology.org/) (Psychology)
+  * [re3data.org](https://www.re3data.org/) (Database to search for databases)
+
+:::
+:::
+
+::: columns
+::: {.column .cant-bg .rounded-padding width="49%"}
+![](www/sad.jpg)
+
+### I can't share
+
+**Archive** your data, so you'll be able to access it **long-term**!  
+Recommended options are:
+
+* Repository of your institution (if available)
+* Using a public repository (e.g., [Zenodo](https://zenodo.org/), [osf.io](https://osf.io/)) and switch status to "private"
+:::
+:::
+
+
+\
+\
+
+
+
+## FAIR data
+
+Researchers and infrastructure specialists realized: Simply putting a lot of data out there is **not effective**. Making data FAIR (findable, accessible, interoperable, reusable) aims to mitigate this problem [@Wilkinson.etal.2016].   
+  
+`r emoji::emoji_name["arrow_right"]` [go-fair.org](https://www.go-fair.org/fair-principles/)    
+
+
+
+
+\
+
+::: {.panel-tabset}
+
+### Findable
+
+**The problem:**  
+Just because we provide data online, doesn't mean that others will find it.  
+  
+We could have the greatest data set to answer further research questions - if our colleagues don't know it exists or can't locate the data, openness will be of little value.
+  
+
+**The solutions:**
+
+* Get a persistent identifier (e.g., DOI), where you provided your data
+  - search for a research data center that fits your needs: [re3data.org](https://www.re3data.org/)
+  - recommended research data centers: [Verbund FDB (education, Germany)](https://www.forschungsdaten-bildung.de/), [RDC at ZPID (psychology, Germany)](https://rdc-psychology.org/), ...
+  - recommended repositories: [Zenodo](https://zenodo.org/), [psycharchives.org](https://www.psycharchives.org/), [osf.io](https://osf.io/), ... 
+* Mention DOI in publication that builds on this data (e.g., in the "data accessibility statement")
+* Describe your data as richly as possible (metadata). *Research data centers* offer form fields tailored to the discipline or data type. With *repositories* use alternative possibilities, such as keyword fields.
+  - e.g., which variables does the quantitative data set contain?
+  - e.g., which topics does your data cover?
+  - e.g., which population did you draw your sample from?
+
+### Accessible
+
+**The problem:**  
+Just because others find our data doesn't mean the *access barriers* are as low as possible and doesn't mean they know *in which way* they are allowed to access it. Examples:
+
+* Providing a link to the data in the text of a paywalled journal article
+* Unclear licensing / use conditions when providing data (e.g., are non-researchers allowed to access the data or is it only open for qualified researchers?)
+
+**The solutions:**
+
+* Make sure access is free of charge (or as cheap as possible)
+  - e.g., by providing link to data in publicly accessible sections of journal articles that are not open access
+  - e.g., by using repositories or research data centers that allow access free of charge
+* Make sure users know if they can access and under which conditions
+  - e.g., *research data centers* ensure that terms of use are clear (who may access under what conditions) and offer different levels of access restriction
+  - e.g., on *repositories* provide a readme-file and an open license (e.g., [CC0](https://creativecommons.org/public-domain/cc0/), [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.de), [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.de)) with data sets for access cases
+
+
+### Interoperable
+
+**The problem:**  
+Just because others downloaded our data doesn't mean they can open and manipulate it.
+
+**The solutions:**  
+
+* Use file formats with open licenses
+  - e.g., tabular data: CSV (with additional labelling script), RData
+  - e.g., text data: PDF, HTML, ODT, RTF
+* Make sure users know how different files are related to one another
+  - e.g., define which file contains student data and which teacher data
+  - e.g., define which file contains data from cohort 1 and which cohort 2, ...
+
+### Reusable
+
+**The problem:**  
+Just because others opened our data doesn't mean they understand the data and its use-conditions. Examples:
+
+* Others can't understand what the column names of the tabular data set mean: Which columns in the data set relate to which variables in the journal article?
+* Can someone from sociology use the data set from psychology they found on osf.io?
+* Does someone reusing a data set have to cite the authors?
+
+**The solutions:**  
+
+* Adhere to standards in folder organization
+  - e.g., [PSYCH-DS](https://psych-ds.github.io/) (see technical specification draft)
+* Rich description/explanation of what user will find *in* the data set (≠ meta descriptions about the data set *as a whole*, as for accessibility)
+  - e.g., provide a codebook. How to semi-automatically create a codebook, see the R package [`codebook`](https://cran.r-project.org/web/packages/codebook/readme/README.html)
+* Provide a license for the use-cases
+  - again, *research data centers* ensure that terms of use are clear (who may use under what conditions)
+  - again, on *repositories* provide a readme-file and an open license (e.g., [CC0](https://creativecommons.org/public-domain/cc0/), [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.de), [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.de)) with data sets for the use-cases
+
+
+:::
+\
+
+
+
+::: {.callout-note title="FAIRness vs. openness"}
+"does not necessarily mean that data has to be “open” [...] even highly protected data can be FAIR data"  
+[@Kraft.2023a]
+:::
